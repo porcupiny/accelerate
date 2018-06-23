@@ -19,6 +19,102 @@ Text Domain:  accelerate-theme-child
     text-align: center;
 }
 
+#navigation {
+    background: #fff;
+    border: solid #bfbfbf;
+    border-bottom: 1px;
+    border-width: 1px 0;
+    clear: both;
+    font: .8em/4.08 'Open Sans', Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+/* About */
+
+.about {
+    display: block;
+    padding: 10px;
+}
+div.influencer { background: url("img/atom.png"); height: 216px; width: 221px;}
+div.content { background: url("img/bullseye.png"); height: 216px; width: 216px; margin: 15px;}
+div.design { background: url("img/design.png"); height: 216px; width: 221px; }
+div.social { background: url("img/like.png"); height: 216px; width: 216px; margin: 15px;}
+
+.bacon {
+    width: 626px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.hero-content.about {
+    padding: 5em;
+}
+.about .main-content {
+    padding-top: 0;
+}
+.hero_desc {
+    color: #fff;
+    font-size: 1.8em;
+    line-height: 1.4;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.about-content {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+}
+
+.header-content {
+    margin: 0 auto 60px auto;
+    text-align: center;
+    width: 55%;
+}
+.header-content h4 {
+    text-transform: uppercase;
+}
+
+.about-line {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    width: 100%;
+}
+.about-img, .about-text {
+    display: inline-block;
+}
+.about-img {
+    max-width: 20%;
+}
+.about-text {
+    width: 69%;
+}
+.about-img-odd, .about-text-even {
+    margin-right: 10%;
+}
+.about-text h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+ .about-nav h2 {
+    width: 100%;
+    padding: 40px 0;
+}
+
+/*END ABOUT STYLES*/
 /* featured work on homepage */
 .featured-work .site-content {
     margin: 6em auto;
@@ -58,6 +154,28 @@ Text Domain:  accelerate-theme-child
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+/* Contact Form */
+
+div.main-content {
+    height: auto;
+    padding: 8em 0;
+    margin: 6em auto;
+}
+
+#nf-field-4 {
+ /* Center the button */
+ display: block;
+ float: right;
+background: none repeat scroll 0 0 #45ac9d;
+ }
+
+#nf-field-4:hover{
+ background-color: #6e4804;
+ box-shadow: 1px 1px 2px #ccc;
+ text-shadow: 5px 5px 8px #453f3f;
+    color: #45ac9d;
+ }
 
 /* blog post on homepage */
 .blog-post h4 {
