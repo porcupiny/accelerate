@@ -25,7 +25,7 @@ Text Domain:  accelerate-theme-child
     border-bottom: 1px;
     border-width: 1px 0;
     clear: both;
-    font: .8em/4.08 'Open Sans', Arial, sans-serif;
+    font: .8em/4.08 'Montserrat','Open Sans', Arial, sans-serif;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -33,20 +33,20 @@ Text Domain:  accelerate-theme-child
     text-align: center;
 }
 
-
 /* About */
 
 .about {
     display: block;
     padding: 10px;
 }
+
 div.influencer { background: url("img/atom.png"); height: 216px; width: 221px;}
 div.content { background: url("img/bullseye.png"); height: 216px; width: 216px; margin: 15px;}
 div.design { background: url("img/design.png"); height: 216px; width: 221px; }
 div.social { background: url("img/like.png"); height: 216px; width: 216px; margin: 15px;}
 
 .bacon {
-    width: 626px;
+    width: 60%;
 }
 
 .left {
@@ -58,16 +58,17 @@ div.social { background: url("img/like.png"); height: 216px; width: 216px; margi
 }
 
 .hero-content.about {
-    padding: 5em;
+    padding: 1em;
+    height: 300px;
 }
 .about .main-content {
     padding-top: 0;
 }
 .hero_desc {
     color: #fff;
-    font-size: 1.8em;
+    font-size: .5em;
     line-height: 1.4;
-    margin: 0 auto;
+    margin: 0px;
     width: 50%;
 }
 
@@ -105,7 +106,7 @@ div.social { background: url("img/like.png"); height: 216px; width: 216px; margi
     margin-right: 10%;
 }
 .about-text h2 {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     font-size: 1.4em;
 }
