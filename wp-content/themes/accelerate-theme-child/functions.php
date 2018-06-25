@@ -13,8 +13,11 @@
 function accelerate_child_scripts() {
     wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' ));
+    wp_enqueue_style( 'accelerate-child-google-fonts', '//fonts.googleapis.com/css?family=Londrina+Shadow|Londrina+Solid:100,300,400,900' );
 }
+
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
+add_action( 'wp_enqueue_scripts', 'accelerate-child-google-fonts' );
 // Custom post types function
 function create_custom_post_types() {
 // create a case study custom post type
@@ -43,3 +46,18 @@ add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
 add_filter( 'storm_social_icons_size', create_function( '', 'return "normal";' ) );
 add_filter( 'storm_social_icons_size', create_function( '', 'return "large";' ) );
+
+function accelerate_theme_child_widget_init() {
+    
+    register_sidebar( array(
+        'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    
+}
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );

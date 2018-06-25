@@ -61,6 +61,14 @@ get_header(); ?>
         <?php endwhile; // end of the loop. ?>
       <?php wp_reset_query(); // resets the altered query back to the original ?>
     </div>
+    <div class="blog-post">
+      <h4>Recent Tweet</h4>
+      <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+  <?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
+<a class="read-more-link" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=porcupiny&tw_p=followbutton" target="_blank">Follow Us ›</a></div>
   </div>
 </section>
 

@@ -19,6 +19,52 @@ Text Domain:  accelerate-theme-child
     text-align: center;
 }
 
+/* 404 */
+a.wrong {
+color: #45ac9d;
+font-weight: bold;
+}
+
+h1.wrong {
+font: 700 1.9em/1.75 'Londrina Solid','Montserrat', 'Open Sans', Arial, sans-serif;
+;
+color: #45ac9d;
+}
+
+.wrong-text {
+    width: 55%;
+}
+p.wrong {
+font:  1.2em/1.75 'Londrina Solid','Open Sans', Arial, sans-serif;
+;
+}
+div.map { background: url("img/map.jpg"); height: 236px; 
+width: 216px; margin: 35px;}
+
+ /*TWITTER STYLES*/
+.widget-area#secondary {
+    width: 85%;
+    float: left;
+}
+
+.tweets {
+    margin-left: 0;
+    
+}
+.tweets li {
+    list-style: none;
+}
+
+.stt-em a {
+    display: none;
+   
+}
+.widget-area .read-more-link {
+    float: right;
+}
+
+/*END TWITTER STYLES*/
+
 #navigation {
     background: #fff;
     border: solid #bfbfbf;
@@ -40,13 +86,18 @@ Text Domain:  accelerate-theme-child
     padding: 10px;
 }
 
+h3.about {
+    padding-top: 50px;
+
+}
+
 div.influencer { background: url("img/atom.png"); height: 216px; width: 221px;}
 div.content { background: url("img/bullseye.png"); height: 216px; width: 216px; margin: 15px;}
 div.design { background: url("img/design.png"); height: 216px; width: 221px; }
 div.social { background: url("img/like.png"); height: 216px; width: 216px; margin: 15px;}
 
 .bacon {
-    width: 60%;
+    width: 95%;
 }
 
 .left {
@@ -116,6 +167,7 @@ div.social { background: url("img/like.png"); height: 216px; width: 216px; margi
 }
 
 /*END ABOUT STYLES*/
+
 /* featured work on homepage */
 .featured-work .site-content {
     margin: 6em auto;
@@ -156,12 +208,21 @@ div.social { background: url("img/like.png"); height: 216px; width: 216px; margi
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+input.button {
+    background: none repeat scroll 0 0 #45ac9d;
+    height: 45px;
+}
 /* Contact Form */
+
+.page-id-47366 .site-content {
+    min-width: 320px;
+    width: 45%;
+}
 
 div.main-content {
     height: auto;
-    padding: 8em 0;
-    margin: 6em auto;
+    padding: 1em 0;
+    margin: 1em auto;
 }
 
 #nf-field-4 {
@@ -192,6 +253,13 @@ background: none repeat scroll 0 0 #45ac9d;
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #45ac9d;
     text-transform: uppercase;
+}
+
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+    margin-right: 5%
 }
 
 
