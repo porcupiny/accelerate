@@ -1,10 +1,10 @@
 
 /*
 Theme Name:   Accelerate Theme Child
-Theme URI:    http://example.com/accelerate-theme-child/
+Theme URI:    http://lianechan.com/accelerate/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
-Author URI:   http://example.com
+Author:   	Liane Chan
+Author URI:   http://lianechan.com
 Template: 	accelerate-theme
 Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -33,13 +33,14 @@ color: #45ac9d;
 
 .wrong-text {
     width: 55%;
+
 }
 p.wrong {
 font:  1.2em/1.75 'Londrina Solid','Open Sans', Arial, sans-serif;
 ;
 }
 div.map { background: url("img/map.jpg"); height: 236px; 
-width: 216px; margin: 35px;}
+width: 216px; margin: 35px; float: left;}
 
  /*TWITTER STYLES*/
 .widget-area#secondary {
@@ -75,95 +76,63 @@ width: 216px; margin: 35px;}
     overflow: hidden;
     position: relative;
     z-index: 1;
-    margin-top: 5em;
+    margin-top: 1em;
+    margin-bottom: .2em;
     text-align: center;
 }
 
 /* About */
 
 .about {
-    display: block;
-    padding: 10px;
+    height: 400px;
 }
 
-h3.about {
-    padding-top: 50px;
-
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: 300px;
+  margin: 0 0 5em;
+  padding: 8em 0;
+  text-align: center;
 }
-
-div.influencer { background: url("img/atom.png"); height: 216px; width: 221px;}
-div.content { background: url("img/bullseye.png"); height: 216px; width: 216px; margin: 15px;}
-div.design { background: url("img/design.png"); height: 216px; width: 221px; }
-div.social { background: url("img/like.png"); height: 216px; width: 216px; margin: 15px;}
-
-.bacon {
-    width: 95%;
+.about-hero-content h3 {
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 1.4em;
+  font-weight: normal;
+  max-width: 42%;
+  margin: 0 auto;
 }
-
-.left {
-    float: left;
+.services-list {
+  max-width: 76%;
+  margin: 0 auto;
 }
-
-.right {
-    float: right;
+.about-services {
+  text-align: center;
 }
-
-.hero-content.about {
-    padding: 1em;
-    height: 300px;
+.about-services p {
+  width: 55%;
 }
-.about .main-content {
-    padding-top: 0;
+.services-offered {
+  margin-top: 68px;
+  margin-bottom: 68px;
+  justify-content: space-between;
 }
-.hero_desc {
-    color: #fff;
-    font-size: .5em;
-    line-height: 1.4;
-    margin: 0px;
-    width: 50%;
+.services-offered-images {
+  float: left;
 }
-
-.about-content {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 90%;
+.services-offered-images a img {
+  width: 216px;
 }
-
-.header-content {
-    margin: 0 auto 60px auto;
-    text-align: center;
-    width: 55%;
+.services-offered-sidebar {
+  width: 65%;
+  float: right;
 }
-.header-content h4 {
-    text-transform: uppercase;
-}
-
-.about-line {
-    display: flex;
-    align-items: center;
-    margin: 0 auto 20px auto;
-    width: 100%;
-}
-.about-img, .about-text {
-    display: inline-block;
-}
-.about-img {
-    max-width: 20%;
-}
-.about-text {
-    width: 69%;
-}
-.about-img-odd, .about-text-even {
-    margin-right: 10%;
-}
-.about-text h2 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1.4em;
-}
- .about-nav h2 {
-    width: 100%;
-    padding: 40px 0;
+.services-offered:nth-child(even) {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 /*END ABOUT STYLES*/

@@ -16,12 +16,19 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div class="main-content" role="main">
-				<div class="about-line">
-<div class="map"></div>
-<div class="wrong-text"><h1 class="wrong">Whoops, Took a Wrong Turn...</h1>
+		
+
+<article class="services-offered clearfix">
+      <div class="map"></div>
+        <aside class="services-offered-sidebar">
+      <div ><h1 class="wrong">Whoops, Took a Wrong Turn...</h1>
 				<p class="wrong">Sorry, this page no longer exists, never existed, or has been moved. We feel like complete jerks for totally misleading you.</p>
-				<p class="wrong">Feel free to look around at our <a class="wrong" href="/accelerate/blog">blog</a> or some of our featured <a class="wrong" href="/accelerate/case-studies/">work</a>.</p></div></div>
-		</div><!-- .main-content -->
+				<p class="wrong">Feel free to look around at our <a class="wrong" href="/accelerate/blog">blog</a> or some of our featured <a class="wrong" href="/accelerate/case-studies/">work</a>.</p></div>
+	
+        </aside>
+
+      </article>
+<!-- .main-content -->
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>

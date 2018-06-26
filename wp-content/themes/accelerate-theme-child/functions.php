@@ -34,6 +34,19 @@ function create_custom_post_types() {
                 ),
             )
     );
+    register_post_type('services_offered',
+        array(
+            'labels' => array(
+                'name' => __( 'Services Offered' ),
+                'singular_name' => __( 'Service Offered' )
+                ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array(
+                'slug' => 'services_offered'
+                ),
+            )
+    );
 }
 // hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
